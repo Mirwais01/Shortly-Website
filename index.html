@@ -12,7 +12,49 @@
     <title>Short WebSite</title>
   </head>
   <body>
-    <h1 class="text-center text-4xl bg-red">Hello world</h1>
-    <h1 class="text-center text-6xl bg-red">Hello world</h1>
+    <!-- navigation bar  -->
+    <nav class="relative container p-6 mx-auto">
+      <div class="flex justify-between">
+        <div class="flex items-center space-x-20">
+          <!-- logo  -->
+          <img src="images/logo.svg" alt="" />
+          <div class="space-x-6 hidden lg:flex">
+            <a href="" class="text-grayishViolet hover:text-black font-bold"
+              >Features</a
+            >
+            <a href="" class="text-grayishViolet hover:text-black font-bold"
+              >Pricing</a
+            >
+            <a href="" class="text-grayishViolet hover:text-black font-bold"
+              >Resources</a
+            >
+          </div>
+        </div>
+
+        <div class="lg:flex hidden items-center space-x-6">
+          <div class="text-grayishViolet hover:text-black font-bold">Login</div>
+          <a
+            href=""
+            class="bg-cyan py-3 px-8 text-white hover:opacity-70 font-bold rounded-full"
+            >Sign up</a
+          >
+        </div>
+        <!-- hamburger button  -->
+        <button
+          id="hamburger-menu"
+          class="hamburger lg:hidden outline-0 focus:outline-none block"
+        >
+          <span class="hamburger-top bg-grayishViolet"></span>
+          <span class="hamburger-middle bg-grayishViolet"></span>
+          <span class="hamburger-bottom bg-grayishViolet"></span>
+        </button>
+      </div>
+      <!-- mobile menu  -->
+      <div class="hidden"></div>
+    </nav>
+    <!-- first section  -->
+    <section id="hero-section"></section>
+
+    <script src="script.js"></script>
   </body>
 </html>
