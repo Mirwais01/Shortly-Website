@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+#cta {
+  background-image: url("../images/bg-boost-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .hamburger {
   width: 24px;
   height: 24px;
