@@ -610,6 +610,22 @@ video {
   left: 3rem;
 }
 
+.left-20{
+  left: 5rem;
+}
+
+.top-20{
+  top: 5rem;
+}
+
+.left-6{
+  left: 1.5rem;
+}
+
+.right-6{
+  right: 1.5rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -647,6 +663,14 @@ video {
   margin-top: 9rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
 .block{
   display: block;
 }
@@ -671,6 +695,18 @@ video {
   height: 0.75rem;
 }
 
+.h-2{
+  height: 0.5rem;
+}
+
+.h-1{
+  height: 0.25rem;
+}
+
+.h-0\.5{
+  height: 0.125rem;
+}
+
 .w-10\/12{
   width: 83.333333%;
 }
@@ -687,6 +723,10 @@ video {
   width: 100%;
 }
 
+.w-3\/4{
+  width: 75%;
+}
+
 .max-w-4xl{
   max-width: 56rem;
 }
@@ -697,6 +737,23 @@ video {
 
 .max-w-md{
   max-width: 28rem;
+}
+
+.max-w-lg{
+  max-width: 32rem;
+}
+
+.max-w-sm{
+  max-width: 24rem;
+}
+
+.max-w-fit{
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.max-w-5xl{
+  max-width: 64rem;
 }
 
 .flex-1{
@@ -771,12 +828,32 @@ video {
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
 
 .rounded-lg{
   border-radius: 0.5rem;
+}
+
+.border{
+  border-width: 1px;
+}
+
+.border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-gray-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
 .bg-\[\#F3F4F6\]{
@@ -809,6 +886,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-red{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 87% 67% / var(--tw-bg-opacity));
+}
+
 .p-10{
   padding: 2.5rem;
 }
@@ -823,6 +905,10 @@ video {
 
 .p-7{
   padding: 1.75rem;
+}
+
+.p-4{
+  padding: 1rem;
 }
 
 .px-10{
@@ -899,6 +985,10 @@ video {
 
 .pt-8{
   padding-top: 2rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-center{
